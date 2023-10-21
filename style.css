@@ -24,8 +24,33 @@
     align-items: center;
     height: 100vh;
 }
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content a{
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: black;
+}
+.content a:hover{
+    background-color: #969494;
+    transition: 0.2s ease-in-out;
+
+
+}
 .back-video{
     height: 100vh;
     right: 0;
     z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
 }
